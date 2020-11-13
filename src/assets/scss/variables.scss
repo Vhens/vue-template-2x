@@ -1,0 +1,19 @@
+
+$blue:#324157;
+$light-blue:#3A71A8;
+$red:#C03639;
+$pink: #E65D6E;
+$green: #30B08F;
+$tiffany: #4AB7BD;
+$yellow:#FEC171;
+$panGreen: #30B08F;
+
+
+/** https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass ***/
+
+// CSS Module 有一个:export关键字，它在功能上等同于 ES6 的关键字export，即导出一个 js 对象。
+
+:export {
+  green: $green;
+  pink: $pink
+}
